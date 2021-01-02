@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+color: #ffffff;
+font-family: 'Sacramento', cursive;
+font-size: 550%;
+width: 30%;
+margin: 0 auto;
+line-height: 2;
+}
+h2{
+  padding:10px 0 50px 0;
+  color: #f3e6fb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+hr{
+  border: dotted #f3e6fb 8px;
+  border-top: 0;
+  width: 5%;
+  margin: 10px auto;
+}
+h3{
+  color: #f3e6fb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  margin: 20px auto;
+  line-height: normal;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+a{
+  color: #4c1ea8;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.title{
+  color: #ffffff;
+}
+em{
+  color: #5a36a3;
+}
+.rights{
+  font-size: 14px;
+}
+.bio{
+  width: 40%;
+  margin: auto;
+  padding-bottom:  50px;
+}
+.top_container{
+  padding-top: 20px;
+  background-color: #98acf8;
+  position: relative;
+}
+.top_container_image{
+  width: 50%;
+  height: 50%;
+  padding-bottom: 50px;
+}
+.middle-container{
+position: relative;
+padding: 50px 0;
+background-image: url("../images/pexels.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: #c4cefa; */
+}
+.skills{
+  padding: 50px 0;
+  /* background-color: #bedcfa; */
+  position: relative;
+}
+.bottom-container{
+  padding: 30px 0 10px;
+  background-color: #9d7be0;
+  color: #5b2cb8;
+}
+.contact-me{
+  padding: 50px 0 0 0;
+}
+.skill-pic1{
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+
+}.skill-pic2{
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+.pic{
+  width: 15%;
+  height: 15%;
+}
+.skill-row{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  padding: 50px 0;
+}
+.myButton {
+	background-color:#f3e6fb;
+	border-radius:6px;
+	border:1px solid #af88f9;
+	display:inline-block;
+	cursor:pointer;
+	color:#af88f9;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  margin-top: 30px;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-img{
+  height: 25px;
+  width: 25px;
+}
+.footer-img-hover{
+  height: 25px;
+  width: 25px;
+  display: none;
+}
+.bottom-row{
+  display: inline-block;
+  width: 10%;
+}
+.footer-link{
+  text-align: center;
+  display: block;
+}
+.bottom-row:hover .footer-img{
+  display: none;
+}
+.bottom-row:hover .footer-img-hover{
+  display: inline-block;
+}
+.bottom-row:hover .footer-link{
+  color: #E1C2ED;
+}
+.contact-mail{
+  width: 40%;
+  margin: auto;
+}
